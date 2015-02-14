@@ -1,0 +1,7 @@
+module carry_select_9(input [8:0] A,B,
+						input c_in,
+						output[8:0] S,
+						output c_out);
+	wire A0,A1,A2,B0,B1,B2;
+	wire[3:0] A3, A4, B3, B4;
+	adder_4_select adderB0(.A(A[8:5]), .B(B[8:5]), .c_in(0), .c_out(B0), .S(B3))
