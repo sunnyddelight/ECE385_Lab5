@@ -1,0 +1,21 @@
+
+State Machine - |processer|control:control_module|counter_cur
+Name counter_cur.I counter_cur.H1 counter_cur.H0 counter_cur.G1 counter_cur.G0 counter_cur.F1 counter_cur.F0 counter_cur.E1 counter_cur.E0 counter_cur.D1 counter_cur.D0 counter_cur.C1 counter_cur.C0 counter_cur.B1 counter_cur.B0 counter_cur.A1 counter_cur.A0 counter_cur.Wait 
+counter_cur.Wait 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+counter_cur.A0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+counter_cur.A1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+counter_cur.B0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+counter_cur.B1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+counter_cur.C0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+counter_cur.C1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+counter_cur.D0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+counter_cur.D1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+counter_cur.E0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+counter_cur.E1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+counter_cur.F0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+counter_cur.F1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+counter_cur.G0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+counter_cur.G1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+counter_cur.H0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+counter_cur.H1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+counter_cur.I 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

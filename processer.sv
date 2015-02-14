@@ -1,4 +1,4 @@
-module processer(input [7:0] SW, input Run, Reset, ClearA_LoadB, Clk, output[7:0] Aval, Bval, output[6:0] AhexU, AhexL, BhexU, BhexL, output X_val );
+module processer(input [7:0] SW, input Run, Reset, ClearA_LoadB, Clk, output[6:0] AhexU, AhexL, BhexU, BhexL, output X_val );
 	wire Add, Sub, Clr_Ld, A_out, M, Shift;
 	wire[1:0] mode;
 	wire[7:0] A_reg_val, B_reg_val, A_in;
@@ -26,4 +26,8 @@ module processer(input [7:0] SW, input Run, Reset, ClearA_LoadB, Clk, output[7:0
 		else
 			mode=0;		
 	end
+	HexDriver A_HexUp(.In0(A_reg_val[7:4]), .Out0(AhexU));
+	HexDriver A_HexDn(.In0(A_reg_val[3:0]), .Out0(AhexL));
+	HexDriver B_HexUp(.In0(B_reg_val[7:4]), .Out0(BhexU));
+	HexDriver B_HexDn(.In0(B_reg_val[3:0]), .Out0(BhexL));
 endmodule
