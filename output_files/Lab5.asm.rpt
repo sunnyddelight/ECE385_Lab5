@@ -1,5 +1,5 @@
 Assembler report for Lab5
-Sat Feb 14 17:18:09 2015
+Sat Feb 14 17:47:05 2015
 Quartus II 64-Bit Version 14.1.0 Build 186 12/03/2014 SJ Web Edition
 
 
@@ -11,7 +11,8 @@ Quartus II 64-Bit Version 14.1.0 Build 186 12/03/2014 SJ Web Edition
   3. Assembler Settings
   4. Assembler Generated Files
   5. Assembler Device Options: C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/output_files/Lab5.sof
-  6. Assembler Messages
+  6. Assembler Device Options: C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/output_files/Lab5.pof
+  7. Assembler Messages
 
 
 
@@ -38,7 +39,7 @@ agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Sat Feb 14 17:18:09 2015 ;
+; Assembler Status      ; Successful - Sat Feb 14 17:47:05 2015 ;
 ; Revision Name         ; Lab5                                  ;
 ; Top-level Entity Name ; processer                             ;
 ; Family                ; Cyclone IV E                          ;
@@ -59,6 +60,7 @@ agreement for further details.
 ; File Name                                                         ;
 +-------------------------------------------------------------------+
 ; C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/output_files/Lab5.sof ;
+; C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/output_files/Lab5.pof ;
 +-------------------------------------------------------------------+
 
 
@@ -68,9 +70,21 @@ agreement for further details.
 ; Option         ; Setting                                                                    ;
 +----------------+----------------------------------------------------------------------------+
 ; Device         ; EP4CE115F29C7                                                              ;
-; JTAG usercode  ; 0x00570798                                                                 ;
-; Checksum       ; 0x00570798                                                                 ;
+; JTAG usercode  ; 0x00574866                                                                 ;
+; Checksum       ; 0x00574866                                                                 ;
 +----------------+----------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/output_files/Lab5.pof ;
++--------------------+------------------------------------------------------------------------+
+; Option             ; Setting                                                                ;
++--------------------+------------------------------------------------------------------------+
+; Device             ; EPCS64                                                                 ;
+; JTAG usercode      ; 0x00000000                                                             ;
+; Checksum           ; 0x49AC33E2                                                             ;
+; Compression Ratio  ; 1                                                                      ;
++--------------------+------------------------------------------------------------------------+
 
 
 +--------------------+
@@ -79,14 +93,14 @@ agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Assembler
     Info: Version 14.1.0 Build 186 12/03/2014 SJ Web Edition
-    Info: Processing started: Sat Feb 14 17:18:05 2015
+    Info: Processing started: Sat Feb 14 17:47:00 2015
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off Lab5 -c Lab5
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 562 megabytes
-    Info: Processing ended: Sat Feb 14 17:18:09 2015
-    Info: Elapsed time: 00:00:04
+    Info: Peak virtual memory: 565 megabytes
+    Info: Processing ended: Sat Feb 14 17:47:05 2015
+    Info: Elapsed time: 00:00:05
     Info: Total CPU time (on all processors): 00:00:04
 
 
