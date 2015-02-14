@@ -49,5 +49,5 @@ module control(input Run, ClearA_LoadB, Reset, Clk, M, output Clr_Ld, Shift, Add
 			Clr_Ld=0;
 
 	end
-endmodule	endmodule	
+endmodule	
 
