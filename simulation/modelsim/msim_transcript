@@ -1,0 +1,176 @@
+# Reading C:/altera/14.1/modelsim_ase/tcl/vsim/pref.tcl
+# do Lab5_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3c Lib Mapping Utility 2014.09 Sep 20 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -sv -work work +incdir+C:/Users/Sunny/Documents/GitHub/ECE385_Lab5 {C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/mux2to1.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 16:01:14 on Feb 17,2015
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Sunny/Documents/GitHub/ECE385_Lab5" C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/mux2to1.sv 
+# -- Compiling module mux2to1
+# 
+# Top level modules:
+# 	mux2to1
+# End time: 16:01:14 on Feb 17,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Sunny/Documents/GitHub/ECE385_Lab5 {C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/HexDriver.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 16:01:14 on Feb 17,2015
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Sunny/Documents/GitHub/ECE385_Lab5" C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 16:01:14 on Feb 17,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Sunny/Documents/GitHub/ECE385_Lab5 {C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/adder_4_select.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 16:01:14 on Feb 17,2015
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Sunny/Documents/GitHub/ECE385_Lab5" C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/adder_4_select.sv 
+# -- Compiling module adder_4_select
+# 
+# Top level modules:
+# 	adder_4_select
+# End time: 16:01:14 on Feb 17,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Sunny/Documents/GitHub/ECE385_Lab5 {C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/full_adder.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 16:01:14 on Feb 17,2015
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Sunny/Documents/GitHub/ECE385_Lab5" C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/full_adder.sv 
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	full_adder
+# End time: 16:01:14 on Feb 17,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Sunny/Documents/GitHub/ECE385_Lab5 {C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/carry_select_adder_9.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 16:01:14 on Feb 17,2015
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Sunny/Documents/GitHub/ECE385_Lab5" C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/carry_select_adder_9.sv 
+# -- Compiling module carry_select_adder_9
+# 
+# Top level modules:
+# 	carry_select_adder_9
+# End time: 16:01:14 on Feb 17,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Sunny/Documents/GitHub/ECE385_Lab5 {C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/control.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 16:01:14 on Feb 17,2015
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Sunny/Documents/GitHub/ECE385_Lab5" C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/control.sv 
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# End time: 16:01:15 on Feb 17,2015, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Sunny/Documents/GitHub/ECE385_Lab5 {C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/computation_module.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 16:01:15 on Feb 17,2015
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Sunny/Documents/GitHub/ECE385_Lab5" C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/computation_module.sv 
+# -- Compiling module computation_module
+# 
+# Top level modules:
+# 	computation_module
+# End time: 16:01:15 on Feb 17,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Sunny/Documents/GitHub/ECE385_Lab5 {C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/shift_reg_8.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 16:01:15 on Feb 17,2015
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Sunny/Documents/GitHub/ECE385_Lab5" C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/shift_reg_8.sv 
+# -- Compiling module shift_reg_8
+# 
+# Top level modules:
+# 	shift_reg_8
+# End time: 16:01:15 on Feb 17,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Sunny/Documents/GitHub/ECE385_Lab5 {C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/processer.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 16:01:15 on Feb 17,2015
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Sunny/Documents/GitHub/ECE385_Lab5" C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/processer.sv 
+# -- Compiling module processer
+# 
+# Top level modules:
+# 	processer
+# End time: 16:01:15 on Feb 17,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/Sunny/Documents/GitHub/ECE385_Lab5 {C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/testbench.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 16:01:15 on Feb 17,2015
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Sunny/Documents/GitHub/ECE385_Lab5" C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 16:01:15 on Feb 17,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim -gui "+altera" -l msim_transcript -do "Lab5_run_msim_rtl_verilog.do" 
+# Start time: 16:01:15 on Feb 17,2015
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.processer
+# Loading work.computation_module
+# Loading work.carry_select_adder_9
+# Loading work.adder_4_select
+# Loading work.full_adder
+# Loading work.mux2to1
+# Loading work.shift_reg_8
+# Loading work.control
+# Loading work.HexDriver
+# ** Warning: (vsim-3017) C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/computation_module.sv(7): [TFMPC] - Too few port connections. Expected 5, found 4.
+# 
+#         Region: /testbench/processor0/adder/adder
+# ** Warning: (vsim-3722) C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/computation_module.sv(7): [TFMPC] - Missing connection for port 'c_out'.
+# 
+# ** Warning: (vsim-3015) C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/carry_select_adder_9.sv(7): [PCDPC] - Port size (1) does not match connection size (32) for port 'c_in'. The port definition is at: C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/adder_4_select.sv(2).
+# 
+#         Region: /testbench/processor0/adder/adder/adderB0
+# ** Warning: (vsim-3015) C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/carry_select_adder_9.sv(8): [PCDPC] - Port size (1) does not match connection size (32) for port 'c_in'. The port definition is at: C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/adder_4_select.sv(2).
+# 
+#         Region: /testbench/processor0/adder/adder/adderB1
+# ** Warning: (vsim-3015) C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/carry_select_adder_9.sv(10): [PCDPC] - Port size (1) does not match connection size (32) for port 'c_in'. The port definition is at: C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/adder_4_select.sv(2).
+# 
+#         Region: /testbench/processor0/adder/adder/adderA0
+# ** Warning: (vsim-3015) C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/carry_select_adder_9.sv(11): [PCDPC] - Port size (1) does not match connection size (32) for port 'c_in'. The port definition is at: C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/adder_4_select.sv(2).
+# 
+#         Region: /testbench/processor0/adder/adder/adderA1
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Warning: (vsim-8315) C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/control.sv(16): No condition is true in the unique/priority if/case statement.
+# 
+# ** Warning: (vsim-8315) C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/control.sv(16): No condition is true in the unique/priority if/case statement.
+# 
+add list \
+sim:/testbench/SW \
+sim:/testbench/Run \
+sim:/testbench/Reset \
+sim:/testbench/ClearA_LoadB \
+sim:/testbench/Clk \
+sim:/testbench/X_val \
+sim:/testbench/A_val \
+sim:/testbench/B_val \
+sim:/testbench/AhexL \
+sim:/testbench/AhexU \
+sim:/testbench/BhexL \
+sim:/testbench/BhexU 
+write list -window .main_pane.list.interior.cs.body C:/Users/Sunny/Desktop/swag.lst
+# Break key hit
+# Simulation stop requested.
+# End time: 16:07:27 on Feb 17,2015, Elapsed time: 0:06:12
+# Errors: 0, Warnings: 8

@@ -1,8 +1,8 @@
 module computation_module(input [8:0] A, SW,
 							input Add, Sub, Clr_Ld,
-							output[8:0] S);
+							output logic[8:0] S);
 
-	wire[8:0] invert, operand, result;
+	logic[8:0] invert, operand, result;
 	assign invert=~SW;
 	carry_select_adder_9 adder(.A(operand),.B(A),.c_in(Sub),.S(result));
 	

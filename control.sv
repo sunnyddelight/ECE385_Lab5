@@ -1,4 +1,5 @@
-module control(input Run, ClearA_LoadB, Reset, Clk, M, output Clr_Ld, Shift, Add, Sub);
+//Module for control, processes the input switches and keeps track of state.
+module control(input Run, ClearA_LoadB, Reset, Clk, M, output logic Clr_Ld, Shift, Add, Sub, Reset_reg);
 	
 	
 	
@@ -129,6 +130,7 @@ module control(input Run, ClearA_LoadB, Reset, Clk, M, output Clr_Ld, Shift, Add
 				end
 			endcase
 	end
+	assign Reset_reg= Reset;
 	assign Clr_Ld=~ClearA_LoadB;
 
 endmodule	

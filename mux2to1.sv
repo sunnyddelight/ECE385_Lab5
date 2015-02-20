@@ -1,7 +1,7 @@
 module mux2to1 (input [3:0]D_in0,
 									D_in1,
 					 input sel,
-					 output [3:0]D_out);
+					 output logic[3:0]D_out);
 
 	always @ (D_in0 or D_in1 or sel)
 	begin

@@ -1,0 +1,251 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Sunny/Documents/GitHub/ECE385_Lab5/simulation/modelsim
+vadder_4_select
+Z1 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+Z2 !s110 1424210474
+!i10b 1
+!s100 U28X3d_=LYNRk_b]C09DW3
+IUmYzhJkEZ2QgQbS@GEeYE0
+Z3 V`JN@9S9cnhjKRR_L]QIcM3
+!s105 adder_4_select_sv_unit
+S1
+R0
+w1423552914
+8C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/adder_4_select.sv
+FC:/Users/Sunny/Documents/GitHub/ECE385_Lab5/adder_4_select.sv
+L0 1
+Z4 OV;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1424210474.832000
+!s107 C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/adder_4_select.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Sunny/Documents/GitHub/ECE385_Lab5|C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/adder_4_select.sv|
+!i113 1
+Z5 o-sv -work work
+Z6 !s92 -sv -work work +incdir+C:/Users/Sunny/Documents/GitHub/ECE385_Lab5
+vcarry_select_adder_9
+R1
+R2
+!i10b 1
+!s100 =bW6i3?QO0^Sk_FDjjXo31
+ITfFHWGAQS4T1a[Wh]MF7o0
+R3
+!s105 carry_select_adder_9_sv_unit
+S1
+R0
+w1423890266
+8C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/carry_select_adder_9.sv
+FC:/Users/Sunny/Documents/GitHub/ECE385_Lab5/carry_select_adder_9.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1424210474.932000
+!s107 C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/carry_select_adder_9.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Sunny/Documents/GitHub/ECE385_Lab5|C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/carry_select_adder_9.sv|
+!i113 1
+R5
+R6
+vcomputation_module
+R1
+Z7 !s110 1424210475
+!i10b 1
+!s100 Nk44k]lJ?I=FWcPgM8M=X2
+I4^><9ZY8?GYNhma_]DmnB1
+R3
+!s105 computation_module_sv_unit
+S1
+R0
+w1424209699
+8C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/computation_module.sv
+FC:/Users/Sunny/Documents/GitHub/ECE385_Lab5/computation_module.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1424210475.052000
+!s107 C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/computation_module.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Sunny/Documents/GitHub/ECE385_Lab5|C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/computation_module.sv|
+!i113 1
+R5
+R6
+vcontrol
+R1
+R2
+!i10b 1
+!s100 02JR]WA;bN^9B?dQLX9aX1
+I];7`>V;`S:d@4dQ02lEd70
+R3
+!s105 control_sv_unit
+S1
+R0
+w1424209582
+8C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/control.sv
+FC:/Users/Sunny/Documents/GitHub/ECE385_Lab5/control.sv
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1424210474.983000
+!s107 C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/control.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Sunny/Documents/GitHub/ECE385_Lab5|C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/control.sv|
+!i113 1
+R5
+R6
+vfull_adder
+R1
+R2
+!i10b 1
+!s100 9W531HbB?Amol9UI_@TiO2
+IX4f[l5@eE14Bm@V2`6D:[0
+R3
+!s105 full_adder_sv_unit
+S1
+R0
+w1423550951
+8C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/full_adder.sv
+FC:/Users/Sunny/Documents/GitHub/ECE385_Lab5/full_adder.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1424210474.883000
+!s107 C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/full_adder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Sunny/Documents/GitHub/ECE385_Lab5|C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/full_adder.sv|
+!i113 1
+R5
+R6
+vHexDriver
+R1
+R2
+!i10b 1
+!s100 aRJgNbH8ER_E]Y]fbToTV0
+Iol1JeU?^V:7j:LSN]o2VG3
+R3
+!s105 HexDriver_sv_unit
+S1
+R0
+w1423536219
+8C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/HexDriver.sv
+FC:/Users/Sunny/Documents/GitHub/ECE385_Lab5/HexDriver.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1424210474.783000
+!s107 C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/HexDriver.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Sunny/Documents/GitHub/ECE385_Lab5|C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/HexDriver.sv|
+!i113 1
+R5
+R6
+n@hex@driver
+vmux2to1
+R1
+R2
+!i10b 1
+!s100 dVIEAT37SV<ccXCM><]Jk3
+ITe<n]4b5ijkjQXTT;_gz03
+R3
+!s105 mux2to1_sv_unit
+S1
+R0
+w1424209920
+8C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/mux2to1.sv
+FC:/Users/Sunny/Documents/GitHub/ECE385_Lab5/mux2to1.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1424210474.729000
+!s107 C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/mux2to1.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Sunny/Documents/GitHub/ECE385_Lab5|C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/mux2to1.sv|
+!i113 1
+R5
+R6
+vprocesser
+R1
+R7
+!i10b 1
+!s100 Z[Yn:B66Jo5k6gQ;jZi6W0
+IjZ7zeLgWXGRoR^=>Q_Kjf3
+R3
+!s105 processer_sv_unit
+S1
+R0
+w1424210017
+8C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/processer.sv
+FC:/Users/Sunny/Documents/GitHub/ECE385_Lab5/processer.sv
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1424210475.149000
+!s107 C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/processer.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Sunny/Documents/GitHub/ECE385_Lab5|C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/processer.sv|
+!i113 1
+R5
+R6
+vshift_reg_8
+R1
+R7
+!i10b 1
+!s100 NVS>G6n2OQ2e?Wbj[O2h=1
+IPO4hMDVd@9iOQ;dBY`Fbn1
+R3
+!s105 shift_reg_8_sv_unit
+S1
+R0
+w1424207234
+8C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/shift_reg_8.sv
+FC:/Users/Sunny/Documents/GitHub/ECE385_Lab5/shift_reg_8.sv
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1424210475.100000
+!s107 C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/shift_reg_8.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Sunny/Documents/GitHub/ECE385_Lab5|C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/shift_reg_8.sv|
+!i113 1
+R5
+R6
+vtestbench
+R1
+R7
+!i10b 1
+!s100 S?l>Di6ZVEPEn]b2Sg6T10
+IoNP09:kF0ZX2e^]kMUJTZ3
+R3
+!s105 testbench_sv_unit
+S1
+R0
+w1424210401
+8C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/testbench.sv
+FC:/Users/Sunny/Documents/GitHub/ECE385_Lab5/testbench.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1424210475.199000
+!s107 C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/testbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Sunny/Documents/GitHub/ECE385_Lab5|C:/Users/Sunny/Documents/GitHub/ECE385_Lab5/testbench.sv|
+!i113 1
+R5
+R6
